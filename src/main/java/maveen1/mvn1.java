@@ -17,7 +17,7 @@ public void Test1(){
 		driver.get("https://www.seleniumhq.org");
 		System.out.println(driver.getTitle());
 		driver.findElement(By.xpath("//a[@title='Get Selenium']")).click();
-		System.out.println(driver.getTitle());
+		//System.out.println(driver.getTitle());
 		driver.close();
 	}
 
